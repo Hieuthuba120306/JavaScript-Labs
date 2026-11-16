@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ed">
+  <meta name="description" content="Dương Trung Hiếu's JavaScript learning journey at UEH, featuring Lab 08, Lab 09, and Lab 10.">
+  <title>Dương Trung Hiếu — JavaScript Learning Journal</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Hiếu home"><img class="brand-logo" src="images/logo.png" alt=""><span>HIẾU<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="primary-navigation">
+        <a href="#top" class="nav-link is-active">Home</a><a href="#about" class="nav-link">About</a><a href="#journey" class="nav-link">My Learning</a><a href="#labs" class="nav-link">Lab Projects</a><a href="#reflection" class="nav-link">Reflection</a>
+        <a class="nav-cta" href="#labs">Explore my labs <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" aria-labelledby="hero-title">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> E-COMMERCE STUDENT <span class="eyebrow-divider">/</span> JAVASCRIPT JOURNEY</p>
+        <h1 id="hero-title">Hello,<br>I'm <span class="name-highlight">Hiếu<span class="scribble">✳</span></span><span class="hero-exclaim">!</span></h1>
+        <p class="hero-lede">I’m an E-commerce student at UEH, exploring how technology and creativity come together to build meaningful digital experiences.</p>
+        <div class="hero-words" aria-label="Create, interact, explore"><span>CREATE</span><i>✳</i><span>INTERACT</span><i>✳</i><span>EXPLORE</span></div>
+        <div class="hero-actions"><a class="button button-primary" href="#journey">Explore my journey <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="#labs">View my labs <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-caption"><span class="caption-line"></span> A little code, a lot of curiosity.</p>
+      </div>
+      <div class="hero-art" data-reveal>
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="photo-frame"><img src="images/a%CC%89nh.jpg" alt="Dương Trung Hiếu at The Wiselands Coffee" fetchpriority="high"><span class="photo-index">01 / 01</span></div>
+        <div class="hero-motion-track">
+          <span class="sticker sticker-top">curious<br>by nature <b>↗</b></span><span class="sticker sticker-side">UEH<br>’26</span><span class="hero-spark spark-one">✳</span><span class="hero-spark spark-two">✦</span>
+          <div class="hero-note"><span class="note-pin"></span><strong>currently learning</strong><span>JavaScript → jQuery</span></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><b aria-hidden="true">↓</b></a>
+    </section>
+
+    <section class="about section-wrap section-space" id="about" aria-labelledby="about-title">
+      <div class="section-heading" data-reveal><p class="eyebrow">A LITTLE ABOUT ME <span class="section-number">01</span></p><h2 id="about-title">Curious about the<br><em>digital world.</em></h2></div>
+      <div class="about-grid">
+        <div class="about-copy" data-reveal><p class="large-copy">I’m studying E-commerce at the University of Economics Ho Chi Minh City. I’m interested in how thoughtful design and technology can make online experiences feel useful, intuitive, and human.</p><p>These labs introduced me to JavaScript as a way to bring a page to life: first learning the language, then responding to people and the browser, and finally exploring how jQuery can simplify common interactions.</p><div class="tag-list"><span>E-commerce</span><span>JavaScript</span><span>Web development</span><span>Creative thinking</span></div><div class="hand-note">learning one interaction at a time <span>↗</span></div></div>
+        <aside class="profile-card" data-reveal aria-label="Student profile"><div class="profile-card-head"><span>THE STUDENT FILE</span><span>UEH / 2026</span></div><dl><div><dt>Name</dt><dd>Dương Trung Hiếu</dd></div><div><dt>Student ID</dt><dd>31241025394</dd></div><div><dt>Class</dt><dd>EE0001</dd></div><div><dt>University</dt><dd>UEH</dd></div><div><dt>Major</dt><dd>E-commerce</dd></div><div><dt>GitHub</dt><dd><a href="https://github.com/Hieuthuba120306" target="_blank" rel="noopener noreferrer">Hieuthuba120306 ↗</a></dd></div></dl><div class="profile-card-foot"><span>Learning log</span><span class="profile-star">✳</span></div></aside>
+      </div>
+    </section>
+
+    <section class="journey section-wrap section-space" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading section-heading-row" data-reveal><div><p class="eyebrow">THREE STEPS FORWARD <span class="section-number">02</span></p><h2 id="journey-title">My learning, <em>in motion.</em></h2></div><p class="heading-aside">From language basics to richer<br>browser experiences.</p></div>
+      <div class="timeline">
+        <article class="timeline-step" data-reveal><div class="timeline-top"><span class="timeline-num">01</span><span class="timeline-dot"></span><span class="timeline-line"></span></div><p class="timeline-label">THE LANGUAGE</p><h3>Understand<br>the building blocks.</h3><p>Syntax, variables, data types, functions, strings, dates, arrays, and objects.</p><span class="timeline-stamp">LAB 08</span></article>
+        <article class="timeline-step" data-reveal><div class="timeline-top"><span class="timeline-num">02</span><span class="timeline-dot"></span><span class="timeline-line"></span></div><p class="timeline-label">THE BROWSER</p><h3>Make the page<br>respond.</h3><p>Read and update DOM content, attributes, and styles; create or remove elements; handle events and validate forms.</p><span class="timeline-stamp">LAB 09</span></article>
+        <article class="timeline-step" data-reveal><div class="timeline-top"><span class="timeline-num">03</span><span class="timeline-dot"></span></div><p class="timeline-label">THE EXPERIENCE</p><h3>Explore richer<br>interactions.</h3><p>Use jQuery selectors, events, DOM updates, animation, GET requests, and jqXHR responses.</p><span class="timeline-stamp">LAB 10</span></article>
+      </div>
+      <p class="timeline-footnote"><span>↗</span> Each new step builds on what came before.</p>
+    </section>
+
+    <section class="labs section-space" id="labs" aria-labelledby="labs-title">
+      <div class="section-wrap"><div class="section-heading section-heading-row" data-reveal><div><p class="eyebrow">THE COURSEWORK <span class="section-number">03</span></p><h2 id="labs-title">Three labs.<br><em>One growing toolkit.</em></h2></div><p class="heading-aside">Open a lab to browse its original<br>walkthroughs and exercises.</p></div>
+        <div class="lab-grid">
+          <article class="lab-card lab-card-08" data-reveal><div class="lab-card-top"><span class="lab-kicker">JAVASCRIPT FOUNDATIONS</span><span class="lab-card-arrow" aria-hidden="true">↗</span></div><div class="code-illustration" aria-hidden="true"><span class="code-line line-short"></span><span class="code-line line-long"></span><span class="code-line line-mid"></span><span class="code-brace">{ }</span><span class="code-cursor"></span></div><p class="lab-number">LAB <strong>08</strong></p><h3><a class="lab-title-link" href="ch08-lab-start-master/index.html" aria-label="Open Lab 08: JavaScript 1, Language Foundations">JavaScript 1:<br>Language Foundations <span class="title-arrow" aria-hidden="true">↗</span></a></h3><p class="lab-description">Get comfortable with the language’s core building blocks and practice writing small scripts.</p><div class="skill-pills"><span>Syntax</span><span>Functions</span><span>Arrays & objects</span></div><a class="lab-link" href="ch08-lab-start-master/index.html">Explore Lab 08 <span aria-hidden="true">→</span></a></article>
+          <article class="lab-card lab-card-09" data-reveal><div class="lab-card-top"><span class="lab-kicker">DOM & EVENTS</span><span class="lab-card-arrow" aria-hidden="true">↗</span></div><div class="dom-illustration" aria-hidden="true"><span class="dom-node node-root">document</span><span class="dom-branch"></span><span class="dom-node node-child">element</span><span class="dom-node node-child node-two">event</span><span class="dom-pointer">↖</span></div><p class="lab-number">LAB <strong>09</strong></p><h3><a class="lab-title-link" href="ch09-lab-start-master/index.html" aria-label="Open Lab 09: JavaScript 2, DOM and Events">JavaScript 2:<br>DOM and Events <span class="title-arrow" aria-hidden="true">↗</span></a></h3><p class="lab-description">Connect JavaScript to the page, react to events, and build confidence with browser debugging.</p><div class="skill-pills"><span>DOM</span><span>Events</span><span>Forms</span></div><a class="lab-link" href="ch09-lab-start-master/index.html">Explore Lab 09 <span aria-hidden="true">→</span></a></article>
+          <article class="lab-card lab-card-10" data-reveal><div class="lab-card-top"><span class="lab-kicker">JQUERY & ASYNC</span><span class="lab-card-arrow" aria-hidden="true">↗</span></div><div class="flow-illustration" aria-hidden="true"><span class="flow-ring ring-a"></span><span class="flow-ring ring-b"></span><span class="flow-center">$</span><span class="flow-dot dot-a"></span><span class="flow-dot dot-b"></span><span class="flow-dot dot-c"></span></div><p class="lab-number">LAB <strong>10</strong></p><h3><a class="lab-title-link" href="ch10-lab-start-master/index.html" aria-label="Open Lab 10: JavaScript 3, jQuery">JavaScript 3:<br>jQuery <span class="title-arrow" aria-hidden="true">↗</span></a></h3><p class="lab-description">Explore concise DOM work, event handling, animation, and asynchronous requests with jQuery.</p><div class="skill-pills"><span>Selectors</span><span>Animation</span><span>GET requests</span></div><a class="lab-link" href="ch10-lab-start-master/index.html">Explore Lab 10 <span aria-hidden="true">→</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-wrap section-space" id="skills" aria-labelledby="skills-title"><div class="skills-intro" data-reveal><p class="eyebrow">TAKING IT FURTHER <span class="section-number">04</span></p><h2 id="skills-title">What I can<br><em>build toward.</em></h2><p>These foundations can support future E-commerce experiences. They’re applications I’d like to explore as I keep learning.</p></div><div class="skill-map" data-reveal><article class="skill-item"><span class="skill-icon">{ }</span><div><h3>JavaScript fundamentals</h3><p>Syntax, variables, functions, and data structures.</p></div><span class="skill-index">01</span></article><article class="skill-item"><span class="skill-icon">↗</span><div><h3>DOM & events</h3><p>Update page elements, respond to actions, validate forms.</p></div><span class="skill-index">02</span></article><article class="skill-item"><span class="skill-icon">$</span><div><h3>jQuery interactions</h3><p>Work with events, animations, and asynchronous data.</p></div><span class="skill-index">03</span></article><div class="application-note"><span class="note-star">✳</span><div><strong>Ideas for E-commerce</strong><p>Checkout validation · Dynamic product details · Cart interactions · UI animation · Displaying fetched data</p><small>Possible applications of these skills — not completed projects.</small></div></div></div></section>
+
+    <section class="reflection section-space" id="reflection" aria-labelledby="reflection-title"><div class="reflection-inner section-wrap" data-reveal><div class="reflection-label"><span class="reflection-sticker">FIELD<br>NOTES</span><p class="eyebrow">A PERSONAL REFLECTION <span class="section-number">05</span></p><h2 id="reflection-title">Beyond<br>the code.</h2><p class="reflection-sub">A draft to make my own.</p></div><div class="reflection-paper"><div class="paper-top"><span>LEARNING JOURNAL</span><span>ENTRY NO. 03</span></div><!-- TODO: Replace this neutral draft with your own example and the lab you found most useful or challenging. --><p>Through these JavaScript labs, I learned how the language’s building blocks can work together: variables and functions organize logic, the DOM connects that logic to a webpage, and events let a page respond to people. Lab 09 shows how JavaScript can change what appears on screen, while Lab 10 introduces jQuery as another way to handle selections, interactions, animation, and requests. These ideas could support E-commerce tasks such as checking checkout forms, updating product information, or displaying data. I want to keep practicing by building small, focused interactions and improving my understanding of asynchronous code. This is an editable draft: I should add a personal example and describe which lab I found most useful or challenging in my own experience.</p><span class="reflection-edit">[Personalize before submission]</span><span class="paper-scribble" aria-hidden="true">✳</span></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main section-wrap"><a class="brand footer-brand" href="#top"><img class="brand-logo" src="images/logo.png" alt=""><span>HIẾU<span class="brand-dot">.</span></span></a><p>Made with curiosity<br>& JavaScript.</p><a class="footer-back" href="#top">Back to top <span aria-hidden="true">↑</span></a></div><div class="footer-bottom section-wrap"><span>© <span id="current-year"></span> Dương Trung Hiếu · UEH</span><span>Every interaction starts with a line of code.</span><a class="footer-contact" href="https://github.com/Hieuthuba120306" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
